@@ -1,0 +1,24 @@
+{
+  "name": "reduce-apply",
+  "version": "1.0.0",
+  "description": "整理reduce的常见应用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhilezhi/reduce-apply.git"
+  },
+  "keywords": [
+    "reduce",
+    "js",
+    "javascript"
+  ],
+  "author": "zhilezhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhilezhi/reduce-apply/issues"
+  },
+  "homepage": "https://github.com/zhilezhi/reduce-apply#readme"
+}
