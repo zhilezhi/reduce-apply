@@ -39,7 +39,7 @@ function flat(array) {
  * @param size
  * @returns {*}
  */
-const chunk = (array, size) => {
+function chunk(array, size) {
     return array.reduce(
         (acc, item) => (
             acc[acc.length - 1].length < size
@@ -49,7 +49,7 @@ const chunk = (array, size) => {
         ),
         [[]]
     );
-};
+}
 
 /**
  * 数组去重
@@ -70,6 +70,7 @@ function repeat(array) {
 function group(array = [], key) {
     return key ? array.reduce((acc, item) => (!acc[item[key]] && (acc[item[key]] = []), acc[item[key]].push(item), acc), {}) : {};
 }
+
 export {
     group,
     repeat,
